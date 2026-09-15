@@ -19,9 +19,14 @@
 ## 使用
 
 ### 方式一：影视TV / FongMi（py 爬虫）
-支持 Python 爬虫的播放器可直接加载 `4kvm.py`：
-- 源码：`https://raw.githubusercontent.com/op948687/4kvm-source/main/4kvm.py`
-- CDN：`https://cdn.jsdelivr.net/gh/op948687/4kvm-source@main/4kvm.py`
+支持 Python 爬虫的播放器可直接加载 `4kvm.py`。
+
+**加载地址（任选）：**
+- 快取(CDN，访问最快)：`https://h.uguu.se/gxTqJBXo.py`
+- jsDelivr：`https://cdn.jsdelivr.net/gh/op948687/4kvm-source@main/4kvm.py`
+- GitHub raw：`https://raw.githubusercontent.com/op948687/4kvm-source/main/4kvm.py`
+
+> 注意：uguu.se 为临时文件站，文件会过期清理，适合临时加速；长期请用 jsDelivr / GitHub 地址。
 
 ### 方式二：自建后端（JSON 接口）
 ```bash
@@ -29,5 +34,5 @@ pip install flask requests
 python tvbox_4kvm.py 5000
 ```
 
-## 订阅链接
-- 仓库页：`https://github.com/op948687/4kvm-source`
+## 仓库
+- https://github.com/op948687/4kvm-source
